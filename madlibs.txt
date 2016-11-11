@@ -1,0 +1,5 @@
+{proper_noun} went to a {place}. At the {place}, {proper_noun}, bought a {color} {food_item}. Later that day, {proper_noun} decided to attend a {band_name} concert, and took the {food_item} along.
+
+{web_company} made a new {product_name} this {unit_of_time}.
+
+{name} is an {adjective} person.
