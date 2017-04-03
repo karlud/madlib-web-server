@@ -11,10 +11,10 @@ FORM = """
 <html>
 <body>
 <h1>Fill in the blanks!</h1>
-<form method="POST">
+<form method="POST" action="/madlib">
 {key}
 {blanks}
-<a href="/madlib"><button type="submit">Submit</button></a>
+<button type="submit">Submit</button>
 </form>
 </body>
 </html>
