@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+
+import os
 import random
-from madlibs import MadlibList
 import templates
 from http.server import SimpleHTTPRequestHandler
 from socketserver import TCPServer
+from madlibs import MadlibList
 
-PORT = 5000
+PORT = int(os.environ.get("PORT", 5000))
 
 madlibs = MadlibList().madlibs()
 MADLIBS = {madlibs.index(madlib): madlib for madlib in madlibs}
